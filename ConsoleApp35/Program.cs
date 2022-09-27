@@ -16,7 +16,7 @@ namespace ConsoleApp35
             Console.WriteLine("Effect: {0}", effect1.GetEffect());
 
             Effect effect2 = new MagicalBurning();
-            effect2 = new AutoCast(effect2); //Автоматическое исцеление
+            effect2 = new AutoCast(effect2); //Автоматическая атака
             Console.WriteLine("Name: {0}", effect2.Name);
             Console.WriteLine("Effect: {0}", effect2.GetEffect());
 
